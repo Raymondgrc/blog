@@ -1,21 +1,20 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+title: Lambda Labs - Week 1
+date: "2018-11-09T22:12:03.284Z"
 ---
 
-This is my first post on my new fake blog! How exciting!
+This is my first post on my experience in Lambda Labs! How exciting!
 
 I'm sure I'll write a lot more interesting things in the future.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+It's been an interesting experience so far. Just the week before, I was given a preference form with many different web app ideas.
+Some of them were really interesting. One was described as a way to notify users of objects that are currently flying above them. I could imagine diving into APIs for satellite trackers, maybe tapping into some university database to find comets, asteroids, stars! Just being able to display the heavens with my code! There was no doubt that this would be one of my preferences.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+A week later, I had received the news. I was assigned my project! Unfortunately, it wasn't what I was hoping for. I had been placed into a project called Randomizer. This project is aimed at teachers. Its features include picking students randomly from a class to ask a question. Depending on the student's response, the teacher could mark this student as participated, not participated, or even skip the student and pick another one. This app also intends to provide data about student participation over time, and in contrast to the class in its entirety. Now even though I was a little disappointed to not have been placed in my first choice project, I am grateful that I didn't get placed in some other project like Meal Helper.
+That project sounds pretty lame to me!
 
-![Chinese Salty Egg](./salty_egg.jpg)
+So far I have had an awesome experience with my team. One team member, Nick, offered a Discord link to everyone so that we could talk to each other seamlessly, throughout the day, rather than using other apps that need more setup like Zoom or Slack. I had only used Discord for gaming, but I surely did learn that it was effective as a dev team communication tool. Another teammate of mine, Emmeline, gave the team a Trello board that she had made to approach the development of our project. It looks great, and is full of features, but I believe I don't appreciate it as much because of the deluge of forms that Lambda currently has each member fill out. Having around 5 forms to fill out daily leaves someone like me, an unorganized person, feel lost and as if I am always missing something. Nick and I did try Vs Code Liveshare and it works great, but it is not a replacement for source control. Development on it is not recommended because if one developer makes a change that causes the app to crash, the other will have to wait until it is resolved. My final teammate is Susanna. She has been immensely helpful with her knowledge of Python, and the rest of the team compliments her Python skills with the knowledge of Javascript and recent web dev technologies. Finally, my team has a supervisor, Kevin. He has been great with keeping up with my group, and ensuring that we do not run into any roadblocks. I appreciate his level of concern, considering we are not his only group. Myself, I provided suggestions to use Material UI and ReCharts. I feel like my team approached my suggestion with open ears, which I am thankful for.
+
+Finally, I will go in-depth into the code I've had the chance to work on. I had been very involved with the front end. Our first choice of front end techs was to use React, Material UI, and ReCharts.js. We had made the choice to use React over something like angular because it is what we had training in, and we were not afforded the time to dig into too much documentation. This is also compounded with the fact that we had not had training in Material UI, Recharts Js, and Stripe.js (Another tech we plan to incorporate). So far we have a little more than a skeleton of the HTML structure of our app. We dumped material UI and are using Styled Components, and now we have a little styling on our app. The styling still needs a lot of work because in its current state, it's akin to a 90s web page.
+
+This is all I have for now, thanks for reading, or skipping to here if you didn't. By the way, here's a [link](https://labs8randomizer2.netlify.com/) to our front end, and here's a [link](https://labs8randomizer.herokuapp.com/admin/login/?next=/admin/) to our backend admin portal.  
