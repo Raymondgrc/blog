@@ -27,7 +27,7 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Raymond Garcia</strong>, a lover of the front end, who doesn't neglect the back end.{' '}
+          Written by <strong>Raymond Garcia</strong>.{' '}
           <a href="https://www.linkedin.com/in/raymond-garcia-703083b2/">
             Add me on Linkedin
           </a>
